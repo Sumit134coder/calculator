@@ -74,6 +74,7 @@ body::after
     user-select: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     border-right: 1px solid rgba(255, 255, 255, 0.05);
+    transition: 0.5s;
 }
 .container .calculator span:hover{
     transition: 0s;
@@ -85,3 +86,16 @@ body::after
     font-size: 24px;
     font-weight: 500;
 }
+.container .calculator .clear{
+    grid-column: span 2;
+    width: 150px;
+    background: rgba(255, 255, 255, 0.05);
+}
+.container .calculator .plus{
+    grid-row: span 2;
+    height: 150px;
+}
+.container .calculator .equal{
+    background: rgba(255, 255, 255, 0.05);
+}
+
